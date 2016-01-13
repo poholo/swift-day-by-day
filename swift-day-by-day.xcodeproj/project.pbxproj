@@ -42,6 +42,9 @@
 		96BEC7F61C45F08300DB167C /* swift-day-by-day-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-day-by-day-Bridging-Header.h"; sourceTree = "<group>"; };
 		96BEC7F71C45F08300DB167C /* BuildFlags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildFlags.swift; sourceTree = "<group>"; };
 		96BEC7F91C45F51400DB167C /* VariableParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VariableParameters.playground; sourceTree = "<group>"; };
+		96BEC7FA1C461F5500DB167C /* InitSequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InitSequence.playground; sourceTree = "<group>"; };
+		96BEC7FB1C46309E00DB167C /* InitReturnNil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InitReturnNil.playground; sourceTree = "<group>"; };
+		96BEC7FC1C46349000DB167C /* ProtocolExtension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolExtension.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,9 @@
 				96BEC7F71C45F08300DB167C /* BuildFlags.swift */,
 				96BEC7F61C45F08300DB167C /* swift-day-by-day-Bridging-Header.h */,
 				96BEC7F91C45F51400DB167C /* VariableParameters.playground */,
+				96BEC7FA1C461F5500DB167C /* InitSequence.playground */,
+				96BEC7FB1C46309E00DB167C /* InitReturnNil.playground */,
+				96BEC7FC1C46349000DB167C /* ProtocolExtension.playground */,
 			);
 			path = 3day;
 			sourceTree = "<group>";
