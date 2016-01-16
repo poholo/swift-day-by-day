@@ -10,7 +10,7 @@ protocol Vehicle {
 }
 
 struct MyCar: Vehicle{
-    var color:Int
+    var color: Int
     init() {
         color = 0
     }
