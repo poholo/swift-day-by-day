@@ -45,6 +45,7 @@
 		96BBE74E1C4CDD2300749DFE /* ObjcDynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcDynamic.h; sourceTree = "<group>"; };
 		96BBE74F1C4CDD2300749DFE /* ObjcDynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjcDynamic.m; sourceTree = "<group>"; };
 		96BBE7511C4CDD8700749DFE /* OptionInterface.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OptionInterface.playground; sourceTree = "<group>"; };
+		96BBE7521C4CE43800749DFE /* ManyTypeContainer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ManyTypeContainer.playground; sourceTree = "<group>"; };
 		96BEC7F61C45F08300DB167C /* swift-day-by-day-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-day-by-day-Bridging-Header.h"; sourceTree = "<group>"; };
 		96BEC7F71C45F08300DB167C /* BuildFlags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildFlags.swift; sourceTree = "<group>"; };
 		96BEC7F91C45F51400DB167C /* VariableParameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VariableParameters.playground; sourceTree = "<group>"; };
@@ -163,6 +164,7 @@
 				96BBE74E1C4CDD2300749DFE /* ObjcDynamic.h */,
 				96BBE74F1C4CDD2300749DFE /* ObjcDynamic.m */,
 				96BBE7511C4CDD8700749DFE /* OptionInterface.playground */,
+				96BBE7521C4CE43800749DFE /* ManyTypeContainer.playground */,
 			);
 			path = 4day;
 			sourceTree = "<group>";
