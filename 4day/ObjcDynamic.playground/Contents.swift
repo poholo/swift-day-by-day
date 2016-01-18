@@ -15,3 +15,7 @@ import Foundation
     2､ 使用
 
 */
+
+class 我的类 {
+    
+}
