@@ -71,7 +71,7 @@ print(MyEnum.foo())
 
 class MyClass: MyProtocol {
     /*
-    class func foo() -> String {    //class 中 static 用class表示  swift 1.2 before
+    class func foo() -> String {    //class 中 static 用class表示  swift 1.2 b
         return "MyClass"
     }
 */
