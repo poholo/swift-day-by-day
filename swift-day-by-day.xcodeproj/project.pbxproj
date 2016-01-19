@@ -10,6 +10,7 @@
 		961E77B51C4CF9250017DBAD /* MAClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E77B41C4CF9250017DBAD /* MAClass.swift */; };
 		961E77B71C4CF9330017DBAD /* MBClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E77B61C4CF9330017DBAD /* MBClass.swift */; };
 		961E77B91C4DD5920017DBAD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E77B81C4DD5920017DBAD /* Person.swift */; };
+		961E77BC1C4DDA6D0017DBAD /* AutoreleasePoolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E77BB1C4DDA6D0017DBAD /* AutoreleasePoolTest.swift */; };
 		969E9C531C42ACD200B9A552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E9C521C42ACD200B9A552 /* main.m */; };
 		969E9C561C42ACD200B9A552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E9C551C42ACD200B9A552 /* AppDelegate.m */; };
 		969E9C591C42ACD200B9A552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969E9C581C42ACD200B9A552 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 		961E77B41C4CF9250017DBAD /* MAClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAClass.swift; sourceTree = "<group>"; };
 		961E77B61C4CF9330017DBAD /* MBClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBClass.swift; sourceTree = "<group>"; };
 		961E77B81C4DD5920017DBAD /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		961E77BB1C4DDA6D0017DBAD /* AutoreleasePoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoreleasePoolTest.swift; sourceTree = "<group>"; };
+		961E77BD1C4DE0DE0017DBAD /* Default.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Default.playground; sourceTree = "<group>"; };
 		968BDB761C44F4B2009E2768 /* p1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = p1.playground; sourceTree = "<group>"; };
 		968BDB771C45068A009E2768 /* SharedInstance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SharedInstance.playground; sourceTree = "<group>"; };
 		968BDB781C451B96009E2768 /* AnyObject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyObject.playground; sourceTree = "<group>"; };
@@ -73,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961E77BA1C4DDA570017DBAD /* 6day */ = {
+			isa = PBXGroup;
+			children = (
+				961E77BB1C4DDA6D0017DBAD /* AutoreleasePoolTest.swift */,
+				961E77BD1C4DE0DE0017DBAD /* Default.playground */,
+			);
+			path = 6day;
+			sourceTree = "<group>";
+		};
 		968BDB751C44F4A3009E2768 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +96,7 @@
 		969E9C451C42ACD200B9A552 = {
 			isa = PBXGroup;
 			children = (
+				961E77BA1C4DDA570017DBAD /* 6day */,
 				96BBE7531C4CE81000749DFE /* 5day */,
 				96BBE74B1C49D88700749DFE /* 4day */,
 				968BDB751C44F4A3009E2768 /* 算法 */,
@@ -263,6 +276,7 @@
 				969E9C591C42ACD200B9A552 /* ViewController.m in Sources */,
 				961E77B71C4CF9330017DBAD /* MBClass.swift in Sources */,
 				969E9C561C42ACD200B9A552 /* AppDelegate.m in Sources */,
+				961E77BC1C4DDA6D0017DBAD /* AutoreleasePoolTest.swift in Sources */,
 				961E77B51C4CF9250017DBAD /* MAClass.swift in Sources */,
 				961E77B91C4DD5920017DBAD /* Person.swift in Sources */,
 				969E9C531C42ACD200B9A552 /* main.m in Sources */,
