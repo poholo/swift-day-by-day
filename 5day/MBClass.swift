@@ -9,7 +9,9 @@
 import Foundation
 
 class MBClass: NSObject{
-    var a: MAClass? = nil
+    //var a: MAClass? = nil
+    //被动的一方不持有主动的一方
+    weak var a: MAClass? = nil
     
     deinit {
         print("B deinit")
