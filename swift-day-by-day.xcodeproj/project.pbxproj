@@ -63,6 +63,8 @@
 		96BEC7FA1C461F5500DB167C /* InitSequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InitSequence.playground; sourceTree = "<group>"; };
 		96BEC7FB1C46309E00DB167C /* InitReturnNil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InitReturnNil.playground; sourceTree = "<group>"; };
 		96BEC7FC1C46349000DB167C /* ProtocolExtension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ProtocolExtension.playground; sourceTree = "<group>"; };
+		96C42D631C52ABDE00763703 /* ReflactableAndMirror.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReflactableAndMirror.playground; sourceTree = "<group>"; };
+		96C42D641C52B25C00763703 /* Options.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Options.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		969E9C451C42ACD200B9A552 = {
 			isa = PBXGroup;
 			children = (
+				96C42D621C52A9F900763703 /* 7day */,
 				961E77BA1C4DDA570017DBAD /* 6day */,
 				96BBE7531C4CE81000749DFE /* 5day */,
 				96BBE74B1C49D88700749DFE /* 4day */,
@@ -201,6 +204,15 @@
 				961E77B81C4DD5920017DBAD /* Person.swift */,
 			);
 			path = 5day;
+			sourceTree = "<group>";
+		};
+		96C42D621C52A9F900763703 /* 7day */ = {
+			isa = PBXGroup;
+			children = (
+				96C42D631C52ABDE00763703 /* ReflactableAndMirror.playground */,
+				96C42D641C52B25C00763703 /* Options.playground */,
+			);
+			path = 7day;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

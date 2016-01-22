@@ -27,3 +27,14 @@ let res5 = sayHello1("b", str3: "c")
 
 
 
+let jsonValue: AnyObject = NSNull()
+if let str = jsonValue as? String {
+    print(str)
+}
+else {
+    print("不能解析")
+}
+
+
+
+

@@ -13,3 +13,56 @@ import Foundation
 
     func autoreleasepool(code: () -> ()) 
 */
+
+
+/*
+    swift对类型要求非常严格，所以获取json之后想从结果AnyObject中获取某个键值是一件非常麻烦的事情。
+*/
+
+/*
+
+let jsonString =  "{\"menu\": {\"id\": \"file\",\"value\": \"File\",\"popup\": {\"menuitem\": [{\"value\":\"New\", \"onclick\": \"CreateNewDoc()\"},{\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},{\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}]}}}"
+
+let json: AnyObject? = NSJSONSerialization.JSONObjectWithData(jsonString.dataUsingEncoding(NSUTF8StringEncoding,allowLossyConversion: true)!, options: nil, error: nil)
+
+
+if let jsonDic = json as? NSDictionary {
+    if let menu = jsonDic[\"menu\"] as? [String: AnyObject] {
+        if let popup: AnyObject = menu[\"popup\"] {
+            if let popupDic = popup as? [String: AnyObject] {
+                if let menuItems: AnyObject = popupDic[\"menuitem\"] {
+                    if let menuItemsArr = menuItems as? [AnyObject] {
+                        if let item0 = menuItemsArr[0]
+                            as? [String: AnyObject] {
+                                if let value: AnyObject = item0[\"value\"] {
+                                    println(value)
+                                }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+*/
+
+
+// NSNull
+
+/**
+    出现最多的场合就是JSON解析了
+
+*/
+
+
+/*
+let jsonValue: AnyObject = NSNull()
+if let str = jsonValue as? String {
+    print(str)
+}
+else {
+    print("不能解析")
+}
+*/
+
