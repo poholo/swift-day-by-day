@@ -30,6 +30,7 @@
 		961E77BB1C4DDA6D0017DBAD /* AutoreleasePoolTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoreleasePoolTest.swift; sourceTree = "<group>"; };
 		961E77BD1C4DE0DE0017DBAD /* Default.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Default.playground; sourceTree = "<group>"; };
 		961E77BE1C4DEC330017DBAD /* RegularExpression.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RegularExpression.playground; sourceTree = "<group>"; };
+		962122F91C58BFCC00AD248E /* Lock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Lock.playground; sourceTree = "<group>"; };
 		968BDB761C44F4B2009E2768 /* p1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = p1.playground; sourceTree = "<group>"; };
 		968BDB771C45068A009E2768 /* SharedInstance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SharedInstance.playground; sourceTree = "<group>"; };
 		968BDB781C451B96009E2768 /* AnyObject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyObject.playground; sourceTree = "<group>"; };
@@ -221,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				96E9FC221C589BB600B43E26 /* Log.playground */,
+				962122F91C58BFCC00AD248E /* Lock.playground */,
 			);
 			path = 8day;
 			sourceTree = "<group>";

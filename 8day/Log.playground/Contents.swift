@@ -14,7 +14,37 @@ func printLg<T>(message: T, file: String = __FILE__, method: String = __FUNCTION
 printLg("hh")
 
 func sayHello() {
-    printLg("hello")
+    let a = sin(10.0)
+    printLg("hello \(a)")
 }
 
 sayHello()
+
+let arr = [0, 4, 10]
+
+let arr1 = arr.map {
+    $0 * 10
+}
+
+printLg(arr1)
+
+
+class MyClass {
+
+}
+
+
+//给extension设置属性
+private var key: Void
+
+extension MyClass {
+    var title: String? {
+        get {
+            return objc_getAssociatedObject(self, &key) as? String
+        }
+        set {
+            objc_setAssociatedObject(self, &key, newValue, UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
+        }
+    }
+}
+
